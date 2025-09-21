@@ -1,0 +1,107 @@
+h1 {color:rgb(112, 79, 79) ;}
+.Heading {
+    color: #bb24b4;
+    font-family: cursive;
+}
+#table1 {
+    border: 1px solid #db6581;
+}
+.highlight{
+    background-color: rgb(199, 171, 120);
+}
+#main-heading{
+    text-align: center;
+    font-weight: bolder;
+    color: #db6581;
+}
+#head {
+    background-image: url("bows.png");
+    padding: 20px;
+    border: 2px solid red;
+}
+body { 
+    margin: 6%;
+    border: 10px solid #db6581;
+    padding: 20px;
+    border-image: url("bow_main.jpg") 59 repeat;
+}
+#annoying-ad1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background: #fff;
+    border: 2px solid #b00b64;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+#annoying-ad1 > div:first-child {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+#annoying-ad1 img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+#annoying-ad1 h4 {
+    font-size: 16px;
+    color: #333;
+}
+
+#annoying-ad1 p {
+    margin: 4px;
+    font-size: 14px;
+    color: #575757;
+}
+
+#static-item{
+    position: static;
+    color: wheat;
+    background-color: #caa9bb;
+    display: block;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;  
+  left: 30px; 
+  bottom: 30px;
+  background: lightblue;
+  padding: 10px;
+  display: inline;
+  margin: 10%;
+}
+.left-box {
+  float: left;
+  background: lightblue;
+  display: block;
+  padding: 2px;
+  padding-left: 5%;
+  margin-left: 10%;
+  align-content: center;
+
+}
+
+.right-box {
+  float: right;
+  background: lightpink;
+  display: block;
+  padding: 2px;
+  padding-right: 5%;
+  margin-right: 10%;
+  align-content: center;
+
+}
+.clearfix {
+  clear: both;
+}
+
+.slay {
+    width: 20em;
+    height: auto;
+}
